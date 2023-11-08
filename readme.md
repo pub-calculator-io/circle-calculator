@@ -12,9 +12,8 @@ Circle calculator finds missing characteristics of a circle. It includes a radiu
 3. Activate the [Circle Calculator](https://www.calculator.io/circle-calculator/ "Circle Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_circle_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Circle Calculator to the sidebar through the `Appearance -> Widgets -> Circle Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_circle_calculator(); ?>` to your template where you would like the Circle Calculator to appear.
+* Add the shortcode `[ci_circle_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_circle_calculator(); ?>` to your template where you would like the Circle Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
