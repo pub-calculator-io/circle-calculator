@@ -13,6 +13,8 @@ Circle calculator finds missing characteristics of a circle. It includes a radiu
 
 Circle calculator finds missing characteristics of a circle. It includes a radius calculator, circumference calculator, diameter calculator, and circle area calculator.
 
+[Circle Calculator Homepage](https://www.calculator.io/circle-calculator/ "Circle Calculator Homepage")
+
 __Shortcode__
 
 Use the Circle Calculator shortcode:
