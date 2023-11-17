@@ -1,6 +1,6 @@
 === Circle Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: circle area calculator, circumference calculator, radius to diameter, circle diameter calculator, calculate circle circumference, area of a circle tool, find radius of circle, circle calculator geometry, pi calculator, circle measurement tool
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
