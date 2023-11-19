@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Circle Calculator by www.calculator.io
+Plugin Name: CI Circle calculator
 Plugin URI: https://www.calculator.io/circle-calculator/
 Description: Circle calculator finds missing characteristics of a circle. It includes a radius calculator, circumference calculator, diameter calculator, and circle area calculator.
 Version: 1.0.0
