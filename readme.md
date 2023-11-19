@@ -7,7 +7,7 @@ Circle calculator finds missing characteristics of a circle. It includes a radiu
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/circle-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /circle-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Circle Calculator](https://www.calculator.io/circle-calculator/ "Circle Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
