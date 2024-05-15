@@ -3,7 +3,6 @@
 Circle calculator finds missing characteristics of a circle. It includes a radius calculator, circumference calculator, diameter calculator, and circle area calculator.
 
 ![Circle Calculator Input Form](/assets/images/screenshot-1.png "Circle Calculator Input Form")
-![Circle Calculator Calculation Results](/assets/images/screenshot-2.png "Circle Calculator Calculation Results")
 
 ## Installation
 

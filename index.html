@@ -73,7 +73,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="r" value="12" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col area-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -111,7 +111,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="d" value="36" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col area-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -149,7 +149,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="a" value="64" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col area-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -187,7 +187,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="c" value="48" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col area-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -224,13 +224,15 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -245,8 +247,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
     <div class="result-table__wrapper">
         <table class="result-table">
@@ -255,7 +256,7 @@
                 <th class="dark indigo" colspan="2">Result</th>
             </tr>
             </thead>
-            <tbody>
+            <tbody class="animate">
             <tr>
                 <th>Radius</th>
                 <td>r = <span id="radius">12</span> <span class="unit">meters</span></td>

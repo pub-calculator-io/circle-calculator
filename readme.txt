@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Circle Calculat
 == Screenshots ==
 
 1. The Circle Calculator Input Form.
-2. The Circle Calculator Calculation Results.
 
 == Installation ==
 
