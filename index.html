@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-    <meta name="description" content="Circle calculator finds missing characteristics of a circle. It includes a radius calculator, circumference calculator, diameter calculator, and circle area calculator.">
+    <meta name="description" content="Instantly find the area, circumference, radius, and diameter of any circle. Use our free Circle Calculator for fast, accurate geometry solutions.">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-regular.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-500.woff2" as="font" crossorigin type="font/woff2">
     <link rel="preload" href="./assets/fonts/inter-v12-latin-600.woff2" as="font" crossorigin type="font/woff2">
@@ -42,25 +42,25 @@
                 		<label class="input col">
                 			<input type="hidden" value="r" id="given"/>
                 			<p class="input__title">Given</p>
-                			<button class="button-switcher button-switcher--active" type="button" onclick="switcher(this, 'given', '')" value="r" id="given-a">
+                			<button class="button-switcher button-switcher--active" type="button" onclick="switcher(this, 'given', '')" value="r" id="given-1">
                 				<span class="button-switcher__text button-switcher__text--active">r</span>
                 			</button>
                 		</label>
                 		<label class="input col">
                 			<p class="input__title"></p>
-                			<button class="button-switcher" type="button" onclick="switcher(this, 'given', '')" value="d" id="given-b">
+                			<button class="button-switcher" type="button" onclick="switcher(this, 'given', '')" value="d" id="given-2">
                 				<span class="button-switcher__text">d</span>
                 			</button>
                 		</label>
                 		<label class="input col">
                 			<p class="input__title"></p>
-                			<button class="button-switcher" type="button" onclick="switcher(this, 'given', '')" value="a" id="given-c">
+                			<button class="button-switcher" type="button" onclick="switcher(this, 'given', '')" value="a" id="given-3">
                 				<span class="button-switcher__text">A</span>
                 			</button>
                 		</label>
                 		<label class="input col">
                 			<p class="input__title"></p>
-                			<button class="button-switcher" type="button" onclick="switcher(this, 'given', '')" value="c" id="given-d">
+                			<button class="button-switcher" type="button" onclick="switcher(this, 'given', '')" value="c" id="given-4">
                 				<span class="button-switcher__text">C</span>
                 			</button>
                 		</label>
@@ -73,7 +73,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="r" value="12" />
                 				
                 			</div>
-                		</label>		<label class="input col area-calculator">
+                		</label>		<label class="input col area-calculator" style="">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -102,7 +102,8 @@
                 					</select>
                 				</div>
                 			</div>
-                		</label>	</div>
+                		</label>
+                	</div>
                 	<div class="input-wrapper row given related-item-hidden related-to-given-d">
                 		<label class="input col  ">
                 			<p class="input__title">Diameter (d)</p>
@@ -111,7 +112,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="d" value="36" />
                 				
                 			</div>
-                		</label>		<label class="input col area-calculator">
+                		</label>		<label class="input col area-calculator" style="">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -140,7 +141,8 @@
                 					</select>
                 				</div>
                 			</div>
-                		</label>	</div>
+                		</label>
+                	</div>
                 	<div class="input-wrapper row given related-item-hidden related-to-given-a">
                 		<label class="input col  ">
                 			<p class="input__title">Area (A)</p>
@@ -149,7 +151,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="a" value="64" />
                 				
                 			</div>
-                		</label>		<label class="input col area-calculator">
+                		</label>		<label class="input col area-calculator" style="">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -178,7 +180,8 @@
                 					</select>
                 				</div>
                 			</div>
-                		</label>	</div>
+                		</label>
+                	</div>
                 	<div class="input-wrapper row given related-item-hidden related-to-given-c">
                 		<label class="input col  ">
                 			<p class="input__title">Circumference (C)</p>
@@ -187,7 +190,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="c" value="48" />
                 				
                 			</div>
-                		</label>		<label class="input col area-calculator">
+                		</label>		<label class="input col area-calculator" style="">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -216,15 +219,20 @@
                 					</select>
                 				</div>
                 			</div>
-                		</label>	</div>
+                		</label>
+                	</div>
                 </div>
                 
-                <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
+                <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  "
+                	>
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
+                
+                	<button class="button button--primary  ml-auto "
+                		onclick="calculate(this); animateElements();" data-action="calculate"
+                		id="action-button">Calculate</button>
                 </div>
                 
                 
@@ -232,7 +240,7 @@
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
+                <script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 # Circle Calculator Widget for WordPress
 
-Circle calculator finds missing characteristics of a circle. It includes a radius calculator, circumference calculator, diameter calculator, and circle area calculator.
+Instantly find the area, circumference, radius, and diameter of any circle. Use our free Circle Calculator for fast, accurate geometry solutions.
 
 ![Circle Calculator Input Form](/assets/images/screenshot-1.png "Circle Calculator Input Form")
 
@@ -11,8 +11,8 @@ Circle calculator finds missing characteristics of a circle. It includes a radiu
 3. Activate the [Circle Calculator](https://www.calculator.io/circle-calculator/ "Circle Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_circle_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_circle_calculator(); ?>` to your template where you would like the Circle Calculator to appear.
+* Add the shortcode `[calcio_circle_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_circle_calculator(); ?>` to your template where you would like the Circle Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
